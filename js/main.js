@@ -1,6 +1,10 @@
 $(function () {
   $(".main_slide").slick({
-    arrows: true,
+    arrows: false,
+    dots: true,
+    pauseOnHover: false,
+    pauseOnFocus: false,
+    autoplay: true,
   });
   $(".m_link li a").on("click", function (e) {
     e.preventDefault();
