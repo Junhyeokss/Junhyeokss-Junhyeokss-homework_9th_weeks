@@ -377,6 +377,195 @@ body {
   height: 100px;
 }
 
+/*여기서부터 ----------------------------------------------------------- sub페이지*/
+
+.secondVisual {
+  padding: 100px 0 50px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.secondVisual .top_inner {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.secondVisual .top_inner h2 {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.secondVisual .top_right {
+  display: flex;
+  position: relative;
+  gap: 10px;
+}
+
+.secondVisual .top_right::after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 284px;
+  width: 1px;
+  height: 25px;
+  background: #ddd;
+}
+
+.secondVisual .top_right h3 {
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 0 0 0;
+}
+
+.secondVisual .top_right p {
+  background: #ddd;
+  width: 100px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.secondVisual .top_right span {
+  padding: 10px 20px 0 20px;
+  background: rgb(242, 235, 254);
+  border-radius: 20px;
+  font-weight: 500;
+}
+
+/*여기서부터 ----------------------------------------------------------- secondContent페이지*/
+
+.secondContent {
+  padding: 80px 0;
+}
+
+.secondContent .second_inner {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.secondContent .second_inner #gnb .top_desc {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.secondContent .second_inner #gnb > ul > li {
+  position: relative;
+  line-height: 70px;
+  border-bottom: 1px solid #ddd;
+  width: 200px;
+}
+
+.secondContent .second_inner #gnb > ul > li .xi-angle-down-min {
+  position: absolute;
+  top: 27px;
+  right: 10px;
+}
+
+.secondContent .second_inner #gnb > ul > li .xi-angle-down-min.on {
+  transform: rotate(180deg);
+}
+
+.secondContent .second_inner #gnb > ul > li .submenu {
+  line-height: 30px;
+  width: 100px;
+  text-align: left;
+  padding: 0 0 20px 0;
+  display: none;
+}
+
+.secondContent .second_inner .recomand_tire {
+  gap: 30px;
+}
+
+.secondContent .second_inner .tire_inner {
+  display: flex;
+  margin: 0 auto;
+  width: 800px;
+  justify-content: space-between;
+  text-align: left;
+  gap: 55px;
+}
+
+.secondContent .second_inner .recomand_tire h3 {
+  display: block;
+  text-align: left;
+  padding: 20px 0 30px 50px;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.secondContent .second_inner .tire_inner figure {
+  background: rgb(246, 248, 251);
+  border-radius: 25px;
+}
+
+.secondContent .second_inner .back_img {
+  padding: 80px 0;
+}
+
+.second_inner .all_item .top_selector {
+  display: flex;
+  justify-content: space-between;
+}
+
+.secondContent .all_item .top_selector {
+  padding: 50px 0;
+}
+
+.secondContent .all_item .gnb > ul > li {
+  position: relative;
+  border: 1px solid #ddd;
+  width: 180px;
+  height: 40px;
+  padding: 10px 55px;
+  border-radius: 30px;
+}
+
+.secondContent .all_item .gnb > ul > li .submenu {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  line-height: 40px;
+  width: 180px;
+  text-align: left;
+  display: none;
+  border: 1px solid #ddd;
+  padding: 10px 40px;
+  background: #fff;
+  border-radius: 30px;
+}
+
+.secondContent .all_item .gnb > ul > li.on .submenu {
+  display: block;
+  border: 1px solid #ddd;
+}
+
+.secondContent .all_item .gnb > ul > li .xi-angle-down-min {
+}
+
+.secondContent .all_item .gnb > ul > li .xi-angle-down-min.on {
+  transform: rotate(180deg);
+}
+
+.second_inner .all_item .bottom_inner {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  flex: 1;
+  gap: 30px;
+}
+
+.all_item .bottom_inner .img_box {
+  width: 250px;
+  background: rgb(246, 248, 251);
+  border-radius: 25px;
+}
+
 .footer {
   padding: 50px 0;
   border-top: 1px solid #ddd;
