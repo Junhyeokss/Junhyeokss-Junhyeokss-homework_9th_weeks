@@ -29,6 +29,7 @@ body {
 .header .top_banner li {
   position: relative;
   padding: 0 0 0 10px;
+
 }
 
 .header .top_banner li ~ li::after {
@@ -91,8 +92,7 @@ body {
 
 /*--------------head_container-------------------*/
 
-.mainVisual {
-}
+
 
 .mainVisual .main_slide {
   position: relative;
@@ -503,16 +503,45 @@ body {
 }
 
 .secondContent .second_inner .back_img {
-  padding: 80px 0;
+  padding:  100px 0 80px 0 ;
+}
+
+.secondContent .second_inner .tire_inner .img_box h3 {
+  display: block;
+  padding: 15px 0;
+  font-size: 15px;
+}
+
+.secondContent .second_inner .tire_inner.img_box p {
+  display: block;
+  padding: 0 0 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.secondContent .second_inner .tire_inner .img_box strong {
+  display: block;
+  padding: 0 0 15px 0;
+  font-size: 15px;
+}
+
+.secondContent .second_inner .tire_inner .img_box d {
+  padding: 0 0 15px 0;
+  font-size: 20px;
+  color: rgb(223, 113, 223);
+  padding: 0 10px 100px 0;
+  width: 25px;
 }
 
 .second_inner .all_item .top_selector {
   display: flex;
   justify-content: space-between;
+  padding: 40px 0;
 }
 
-.secondContent .all_item .top_selector {
-  padding: 50px 0;
+.secondContent .all_item .top_selector h2 {
+  padding: 10px 0 0 0;
+
 }
 
 .secondContent .all_item .gnb > ul > li {
@@ -520,6 +549,7 @@ body {
   border: 1px solid #ddd;
   width: 180px;
   height: 40px;
+  margin:  0 0 0 600px ;
   padding: 10px 55px;
   border-radius: 30px;
 }
@@ -544,8 +574,7 @@ body {
   border: 1px solid #ddd;
 }
 
-.secondContent .all_item .gnb > ul > li .xi-angle-down-min {
-}
+
 
 .secondContent .all_item .gnb > ul > li .xi-angle-down-min.on {
   transform: rotate(180deg);
@@ -553,18 +582,63 @@ body {
 
 .second_inner .all_item .bottom_inner {
   display: flex;
-  width: 1000px;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto;
-  flex: 1;
   gap: 30px;
 }
 
-.all_item .bottom_inner .img_box {
-  width: 250px;
+.all_item .bottom_inner .img_box_second {
+  position: relative;
+  width: 300px;
+}
+
+.all_item .bottom_inner .img_box_second figure {
   background: rgb(246, 248, 251);
   border-radius: 25px;
 }
+
+.all_item .bottom_inner .img_box_second .a1 {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 0 170px;
+}
+
+.recomand_tire .img_box_second .a1 {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 0 50px;
+}
+
+.recomand_tire .img_box_second > h3 {
+  position: absolute;
+  left: -52px;
+  display: block;
+  padding: 30px 0;
+  font-size: 1px;
+}
+
+.recomand_tire .img_box_second > p {
+  display: block;
+  padding: 55px 0 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.recomand_tire .img_box_second > strong {
+  display: block;
+  padding: 0 0 15px 0;
+  font-size: 15px;
+}
+
+.recomand_tire .img_box_second > d {
+  padding: 0 0 15px 0;
+  font-size: 20px;
+  color: rgb(223, 113, 223);
+  padding: 0 10px 100px 0;
+  width: 25px;
+}
+
 
 .footer {
   padding: 50px 0;
